@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Graphik LCG';
+ src: url("/fonts/GraphikLCG-Regular.ttf")  
+         
+}
+
+
+img {
+    display: block;
+     
+}
+
+.body {
+font-family: 'Graphik LCG';
+font-size: 18px;
+line-height: 34px;
+
+}
+
+.ikra {
+position: relative;
+width: 1920px;
+height: 6325px;
+
+background: #1B1B1B;
+}
+
+.logo {
+position: absolute;
+width: 176.98px;
+height: 80.68px;
+left: 407.92px;
+top: 282px;
+
+background: url(/images/ikra-logo.png);
+}
+
+.background {
+    position: absolute;
+    width: 1005px;
+    height: 924px;
+    left: 915px;
+    z-index: 2;
+}
+
+.laptop {
+position: absolute;
+width: 778px;
+height: 700px;
+left: 809px;
+top: 183px;
+z-index:3;
+background: url(/images/laptop.png);
+}
+
+
+.text1 {
+    position: absolute;
+    width: 467px;
+    height: 127px;
+    left: 408px;
+    top: 401.79px;
+    font-family: 'Graphik LCG';
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.link {
+position: absolute;
+width: 107.99px;
+height: 25.9px;
+left: 420px;
+top: 601px;
+
+font-family: 'Graphik LCG';
+font-size: 14px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F2F2F2;
+}
+
+
+
+.section2 {
+position: absolute;
+width: 1920px;
+height: 3213px;
+left: 0px;
+top: 839px;
+
+background: #FFFFFF;
+}
+
+
+.header {
+    font-family: 'Graphik LCG';
+    font-size: 48px;
+    line-height: 74px;
+    font-weight: bolder;
+    color: #333333;
+}
+
+.content {
+font-family: 'Graphik LCG';
+font-size: 18px;
+line-height: 34px;
+
+color: #333333;
+}
+
+
+.one {
+    position: absolute;
+width: 295px;
+height: 31px;
+left: 405px;
+top: 909px;
+}
+
+.two {
+    position: absolute;
+width: 295px;
+height: 31px;
+left: 405px;
+top: 1114px;
+}
+
+
+.three {
+    position: absolute;
+width: 565px;
+height: 63px;
+left: 400px;
+top: 1378px;
+
+
+
+
+color: #333333;
+}
+
+.one > .content {
+    position: absolute;
+    width: 780px;
+    height: 145px;
+    
+    top: 74px;
+
+}
+
+.two > .content {
+    position: absolute;
+    width: 780px;
+    height: 145px;
+    top: 74px;
+    
+}
+
+.ellipse {
+    position: absolute;
+    width: 1225.58px;
+    height: 1448.4px;
+    top: 1434.95px;
+    left: 0px;
+  
+}
+
+.side {
+    width: 400px;
+    position: absolute;
+    top: 1496px;
+    left: 1109px;
+    font-family: Graphik LCG;
+    font-size: 32px;
+    line-height: 52px;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    letter-spacing: 0.8px;
+    
+}
+
+
+
+.item:nth-child(2n+1) {
+width: 44px;
+height: 5px;
+background: #FD3300;
+ 
+
+}
+.item:nth-child(2) {
+    letter-spacing: 0.2px;
+    
+}
+
+
+.item:nth-child(3) {
+    margin-top: 73px;
+    margin-bottom: 4px;
+    
+}
+
+
+.item:nth-child(5) {
+    margin-top: 66px;
+    margin-bottom: 8px;
+    
+}
+
+.item:nth-child(6) {
+text-align: right;
+line-height: 47px;
+}
+
+
+.three .image1 {
+    position:relative;
+    top:50px;
+}
+
+.image1 {
+    position: absolute;
+    z-index: 2;
+    top: 1518px;
+    left: 400px;
+}
+
+
+.frame1 {
+    position:absolute;
+    top: 1898px;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.frame2 {
+    position: absolute;
+    top: 2277px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
