@@ -1,17 +1,19 @@
 @font-face {
  font-family: 'Graphik Regular';
- src: url("/ikra/fonts/GraphikLCG-Regular.ttf");         
+ src: url("../fonts/GraphikLCG-Regular.ttf");         
 } 
 
 @font-face {
     font-family: 'Graphik Bold';
-    src: url("/ikra/fonts/Graphik-Bold-Web.ttf");         
+    src: url("../fonts/Graphik-Bold-Web.ttf");         
    } 
 
 img {
     display: block;
      
 }
+
+ 
 
  a {
      text-decoration: none;
@@ -85,7 +87,17 @@ img {
     color: #F2F2F2;
 }
 
+.linklogotop {
+    position: absolute;
+    left: 4px;
+    top: 204px;
+}
 
+.linklogobot {
+    position: absolute;
+    left: -1px;
+    top: 208px;
+}
 
 .section2 {
     position: absolute;
@@ -152,7 +164,7 @@ img {
     height: 63px;
     left: 399.5px;
     top: 1374px;
-    letter-spacing: -0.2px;
+    letter-spacing: 0.3px;
     color: #333333;
 }
 
@@ -162,7 +174,7 @@ img {
     height: 63px;
     left: 402px;
     top: 2712px;
-    letter-spacing: -0.1px;
+    letter-spacing: 0.2px;
     color: #333333;
 }
 
@@ -172,7 +184,7 @@ img {
     height: 63px;
     left: 404px;
     top: 4153.9px;
-    letter-spacing: -0.1px;
+    letter-spacing: 0.2px;
     color: #FFFFFF;
 
 }
@@ -184,8 +196,19 @@ img {
     height: 63px;
     left: 401px;
     top: 4631px;
-    letter-spacing: -0.4px;
+    letter-spacing: 0.1px;
     color: #FFFFFF;
+
+}
+
+.seven {
+    position: absolute;
+    width: 773px;
+    height: 63px;
+    left: 405px;
+    top: 5234px;
+    letter-spacing: 0.2px;
+    color: #000000;
 
 }
 
@@ -221,7 +244,7 @@ img {
     height: 153px;
     top: 86px;
     left: 3px;
-    letter-spacing: 0.2px;
+    letter-spacing: -0.1px;
     color: #FFFFFF;
 }
 
@@ -231,7 +254,7 @@ img {
     height: 153px;
     top: 82px;
     left: 1px;
-    letter-spacing: 0.1px;
+    letter-spacing: -0.1px;
     color: #FFFFFF;
 }
 
@@ -338,7 +361,7 @@ img {
 
 .pics {
     position: relative;
-    top: 2864px;
+    top: 2884px;
     width: 1124px;
     left: 78px;
     display: flex;
@@ -385,7 +408,7 @@ img {
 .f1s > .under {
     left: -90px;
     margin-top: 16.4px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
 }
 
 .dash {
@@ -401,17 +424,17 @@ img {
 }
 
 
-.f2 {
+.chefs {
     position: relative;
-    top: 2936px;
+    top: 2956px;
     left: -3px;
     
 }
 
-.phone {
+.cellphone {
     position: relative;
-    top: 3505px;
-    left: 552px;
+    top: 3527px;
+    left: 551px;
     
 }
 
@@ -457,19 +480,28 @@ img {
 }
 
 .likes {
+    font-family: 'Graphik Bold';
     font-size: 14px;
-    line-height: 26px;
+    line-height: 23.8px;
+    letter-spacing: -0.3px;
     width: 355px;
     height: 68px;
-
     color: #333333;
     position: relative;
-    top: 5000px;
+    top: 4987px;
     left: 0px;
      
 }
 
+.like {
+    width: 355px;
+    height: 68px;
+    margin-bottom: 25px;
+     
+}
+
 .breef {
+    padding: 18px 15px 17px 25px;
     display: flex;
     justify-content: space-between ;
     align-items: center;
@@ -477,4 +509,240 @@ img {
     height: 54px;
     background: linear-gradient(284.86deg, #5C9FF9 -16.34%, #0058DC 97.2%), #C4C4C4;
     border-radius: 3px;
+    color : white;
+    letter-spacing: -0.3px;
+
 }
+
+.works {
+    width: 1110px;
+    font-family: 'Graphik Bold';
+    font-size: 14px;
+    line-height: 23.8px;
+    letter-spacing: -0.3px;
+    color: white;
+    position: absolute;
+    top: 5334px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 542px;
+    height: 258px;
+    border-radius: 5px;
+    
+     
+}
+
+.description1 , .description2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.works > .left {
+    background: url(../images/backleft.png);
+     
+}
+
+ .back1 {
+    width: 81px;
+    height: 81px;
+    background: url(../images/iconleft.png);
+}
+
+ .tag1   {
+    margin-bottom: -10px;
+    margin-top: 1px;
+}
+
+.tag2   {
+    margin-bottom: -11px;
+    margin-top: 12px;
+}
+ 
+
+.longarrow1 , .longarrow2 {
+    width: 111px;
+    height: 8px;
+    background: url(../images/arrow3.png) ;
+    position: relative;
+    top: -10px;
+}
+
+.works > .right {
+    background: url(../images/backright.png);
+     
+}
+
+.back2 {
+    width: 309px;
+    height: 58px;
+    background: url(../images/iconright.png);
+    position: relative;
+    top: 9px;
+}
+
+
+.footer {
+    width: 1276px;
+    position: absolute;
+    top: 5754px;
+    left: 335px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Graphik Regular';
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+   
+}
+
+.callback {
+    width: 267px;
+    height: 68px;
+    line-height: 22px;
+    margin-top: 24px;
+
+}
+
+.contact {
+    margin-bottom: 10px;
+    width: 156px;
+   
+    line-height: 24px;
+}
+
+.city {
+    font-family: 'Graphik Bold';
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+.div1 {
+    font-family: 'Graphik Bold';
+    position: relative;
+    top: 11px;
+     
+}
+
+.div1 , .div2 , .div3 , .div4 {
+    width: 170px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    line-height: 22px;
+}
+
+.div2 {
+    position: relative;
+    left:70px;
+}
+
+.div2 > .contact {
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.div3 > .contact {
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+.div4 {
+    position: relative;
+    left: -61px;
+}
+  
+.div4 > .contact {
+    width:205px;
+}
+
+.location1 {
+    position: absolute;
+    top: 12px;
+    left: 696px;
+}
+
+.location2 {
+    position: absolute;
+    top: 10px;
+    left: -17px;
+}
+
+.telegramlogo   {
+    position: absolute;
+    top: 9px;
+    left: -35px;
+}
+
+.viberlogo1 
+    {position: absolute;
+    top: 64px;
+    left: -34px;
+    
+}
+
+.viberlogo2 {
+    position: absolute;
+    top: 107px;
+    left: -34px;
+}
+
+
+.maillogo {
+    position: absolute;
+    top: 149px;
+    left: -34px;
+}
+
+
+
+ .underline {
+    position:absolute;
+    top: 6005px;
+    left : 400px;
+    width: 1111px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+ }
+
+ .underfoot {
+    position:absolute;
+    top: 6032px;
+    left: 407px;
+    color :white;
+    font-family: 'Graphik Regular';
+    font-size: 14px;
+     
+ }
+
+ 
+
+
+ .div2_0 {
+    position: relative;
+    top: -16px;
+    left: 1045px;
+    display: flex;
+    justify-content: space-between;
+
+    width: 65px;
+    height: 19px;
+ }
+
+ .behance {
+    width: 24px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+ }
