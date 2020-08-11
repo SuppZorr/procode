@@ -23,7 +23,8 @@ body {
     width: 0px;
     height: 120px;
     border: 1px solid black;
-    animation: go 10s linear infinite;
+    animation: go 60s linear infinite;
     transform-origin: bottom left;
+    z-index: 10;
 }
 
