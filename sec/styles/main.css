@@ -1,5 +1,5 @@
 @keyframes go {
-0% {}
+0% {transform: rotate(0deg)}
 100% {transform: rotate(360deg)}    
 
 }
@@ -22,7 +22,7 @@ body {
     left: 149px;
     width: 0px;
     height: 120px;
-    border-right: 1px solid;
+    border-right: 1px solid black;
     animation: go 60s linear infinite;
     transform-origin: bottom left;
 }
