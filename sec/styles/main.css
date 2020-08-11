@@ -23,7 +23,7 @@ body {
     width: 0px;
     height: 120px;
     border-right: 1px solid;
-    animation: go 20s linear infinite;
+    animation: go 60s linear infinite;
     transform-origin: bottom left;
 }
 
