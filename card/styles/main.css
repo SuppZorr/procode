@@ -1,0 +1,31 @@
+body {
+    padding: 40px;
+}
+
+.container {
+    
+    width: 170px;
+    height: 247px;
+     
+     
+}
+.card {
+    
+    transition: all 0.2s ease-in-out 0.2s;
+     
+    border-radius: 5%;
+    width: 170px;
+    height: 247px;
+    border: 1px solid black;
+    background-image: url(../images/card.png);
+     
+}
+
+
+
+.container:hover .card{
+    transform: scaleX(-1);
+     
+     
+}
+
